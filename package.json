@@ -9,12 +9,12 @@
   "bugs": {
     "url": "https://github.com/ffalt/pdf.js-extract/issues"
   },
-  "version": "0.1.5",
+  "version": "0.1.1",
   "author": {
     "name": "ffalt"
   },
   "scripts": {
-    "test": "jest"
+    "test": "mocha test"
   },
   "contributors": [
     {
@@ -24,10 +24,6 @@
     {
       "name": "Ilan Copelyn",
       "url": "https://github.com/ilanc"
-    },
-    {
-      "name": "Sajjad Hashemian",
-      "url": "https://github.com/sijad"
     }
   ],
   "main": "./lib",
@@ -39,10 +35,13 @@
   },
   "dependencies": {},
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=8.0.0"
   },
   "readmeFilename": "README.md",
   "devDependencies": {
-    "jest": "26.6.3"
+    "@types/node": "^10.12.6",
+    "chai": "^4.2.0",
+    "chai-exclude": "^1.0.10",
+    "mocha": "^5.2.0"
   }
 }
